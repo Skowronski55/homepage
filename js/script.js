@@ -3,7 +3,7 @@ console.log("Cześć!");
 let button1 = document.querySelector(".js-header__buttonHeading");
 let header__heading = document.querySelector(".js-header__heading");
 let button2 = document.querySelector(".js-header__buttonImage");
-let img  = document.querySelector(".js-headerImage");
+let img  = document.querySelector(".js-header__image");
 let button3 = document.querySelector(".js-header__buttonColor");
 let body = document.querySelector(".js-body");
 let themeName = document.querySelector(".themeName");
@@ -26,4 +26,7 @@ button3.addEventListener("click", () => {
          themeName.innerText = "ciemny";
 }
 })
+
+
+
 
