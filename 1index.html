@@ -23,12 +23,12 @@
 </head>
 
 <body class="body js-body">
-    <header class="header">
+    <header class="header__container">
         <h1 class="header__heading js-header__heading">Krótko o mnie</h1>
         <div class="header__box">
             <i class="header__sentence">„Starość darem losu, życiowym zadaniem i wyzwaniem dla przyszłości”</i>
             <p>
-                <img class="header__image js-headerImage" src="https://i.postimg.cc/tg6ZPy7J/imagejawcz.jpg"
+                <img class="header__image js-header__image" src="https://i.postimg.cc/tg6ZPy7J/imagejawcz.jpg"
                     alt="Przemysław Skowroński">
             </p>
             <p>
@@ -38,16 +38,15 @@
                 <button class="header__button header__buttonImage js-header__buttonImage">Usuń zdjęcie</button>
             </p>
             <p>
-                <button class="header__button header__buttonColor js-header__buttonColor">
-                    Włącz <span class="themeName">ciemny</span> motyw
-                </button>
+                <button class="header__button header__buttonColor js-header__buttonColor">Włącz <span
+                        class="themeName">ciemny</span> motyw</button>
             </p>
         </div>
     </header>
     <nav class="navigation">
         <h2 class="navigation__header">Spis Treści</h2>
-        <ul class="navigation__list">
-            <li class="navigation__item">
+        <ul class="navigation__Item">
+            <li class="navigation__listItem">
                 <a class="navigation__link" href="#Dzisiaj">Dzisiaj</a>
             </li>
             <li class="navigation__listItem">
@@ -68,6 +67,19 @@
         </ul>
     </nav>
     <main>
+        <article class="article" id="Dzisiaj">
+            <h2 class="article__header">Dzisiaj</h2>
+            <p class="article_paragraph">Nazywam się Przemysław Skowroński mam 67 lat, jestem emerytem wojskowym,
+                szczęśliwym w małżeństwie,
+                dumnym z córki i z zadowoleniem przyglądam się jak dorasta mój sześcioletni wnuk. Dbam o kondycję
+                fizyczną
+                <span class="article_paragraphHighlighted">(pływam, biegam, ćwiczę ciężarkami),</span> lubię podróże,
+                podtrzymuję
+                znajomość
+                języka rosyjskiego i doskonale język angielski. W wolnych chwilach
+                rysuję i maluję. Ogólnie cieszę się życiem.
+            </p>
+        </article>
         <article class="article" id="Wczoraj">
             <h2 class="article__header">Wczoraj</h2>
             <p class="article_paragraph">Urodziłem się w Poznaniu, ale służba wojskowa poprzez Piłę, Inowrocław,
@@ -93,76 +105,71 @@
                     *Szefostwo Transportu i Ruch Wojsk (otwiera się w nowej karcie)</a>
             </p>
         </article>
-        <article class="article" id="Nowy artykół">
-            <h2 class="article__header">Testowy nagłówek</h2>
-            <p> Lorem ipsum </p>
-        </article>
-
         <article class="article" id="Jutro">
             <h2 class="article__header">Jutro</h2>
             <p class="article_paragraph">Wstępując do YouCodu liczę na zdobycie nowych umiejętności w tworzenia stron
                 internetowych w ramach
                 Frontendu.</p>
         </article>
-        <div class="article__tableContainer" id="DrogaSluzbowa">
+        <div class="container1" id="DrogaSluzbowa">
             <h2>Droga służbowa</h2>
-            <table class="table">
+            <table class="table__heading">
                 <caption class="table__caption"></caption>
-                <tr class="tabla__Row">
-                    <th class="table__Cell table__Header" scope="row">Miejsce służby</th>
-                    <th class="table__Cell table__Header" scope="col">Stanowisko</th>
-                    <th class="table__Cell table__Header" scope="col">Lata służby</th>
-                </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" scope="row">Piła</th>
-                    <td class="table__Cell">podchorąży</td>
-                    <td class="table__Cell">1974-78</td>
-                </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" scope="row" rowspan="2">Inowrocław</th>
-                    <td class="table__Cell">oficer służb technicznych</td>
-                    <td class="table__Cell">1978-1981</td>
-                </tr>
-                <tr class="table__Row">
-                    <td class="table__Cell">dowódca kompani</td>
-                    <td class="table__Cell">1981-83</td>
-                </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" scope="row">Leningrad</th>
-                    <td class="table__Cell">słuchacz akademii</td>
-                    <td class="table__Cell">1983-86</td>
-                </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" scope="row">Inowrocław</th>
-                    <td class="table__Cell">dowódca batalionu</td>
-                    <td class="table__Cell">1986-88</td>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row">Miejsce służby</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Stanowisko</th>
+                    <th class="table__tableCell table__tableHeader" scope="col">Lata służby</th>
                 </tr>
                 <tr class="table__tableRow">
-                    <th class="table__Cell table__Header" scope="row">Płock</th>
-                    <td class="table__Cell">z-ca d-cy oddziału ds tech</td>
-                    <td class="table__Cell">1988-92</td>
+                    <th class="table__tableCell table__tableHeader" scope="row">Piła</th>
+                    <td class="table__tableCell">podchorąży</td>
+                    <td class="table__tableCell">1974-78</td>
                 </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" scope="row">Włocławek</th>
-                    <td class="table__Cell">z-ca d-cy oddziału d/s tech</td>
-                    <td class="table__Cell">1992-94</td>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row" rowspan="2">Inowrocław</th>
+                    <td class="table__tableCell">oficer służb technicznych</td>
+                    <td class="table__tableCell">1978-1981</td>
                 </tr>
-                <tr class="table__Row">
-                    <th class="table__Cell table__Header" rowspan="4">Warszawa</th>
-                    <td class="table__Cell">st.specjalista SłTech SG WP</td>
-                    <td class="table__Cell"> 1994-98</td>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell">dowódca kompani</td>
+                    <td class="table__tableCell">1981-83</td>
                 </tr>
-                <tr class="table__Row">
-                    <td class="table__Cell">st.specjalista STiRW Log. SG WP</td>
-                    <td class="table__Cell">1998-2001</td>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row">Leningrad</th>
+                    <td class="table__tableCell">słuchacz akademii</td>
+                    <td class="table__tableCell">1983-86</td>
                 </tr>
-                <tr class="table__Row">
-                    <td class="table__Cell">słuchacz akademii</td>
-                    <td class="table__Cell">2001-2002</td>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row">Inowrocław</th>
+                    <td class="table__tableCell">dowódca batalionu</td>
+                    <td class="table__tableCell">1986-88</td>
                 </tr>
-                <tr class="table__Row">
-                    <td class="table__Cell">szef oddziału infrastruktury StiRW Inspektoratu Wsparcia WP</td>
-                    <td class="table__Cell">2002-2010</td>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row">Płock</th>
+                    <td class="tableCell">z-ca d-cy oddziału ds tech</td>
+                    <td class="tableCell">1988-92</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" scope="row">Włocławek</th>
+                    <td class="table__tableCell">z-ca d-cy oddziału d/s tech</td>
+                    <td class="ttable__tableCell">1992-94</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <th class="table__tableCell table__tableHeader" rowspan="4">Warszawa</th>
+                    <td class="table__tableCell">st.specjalista SłTech SG WP</td>
+                    <td class="table__tableCell"> 1994-98</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell">st.specjalista STiRW Log. SG WP</td>
+                    <td class="table__tableCell">1998-2001</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell">słuchacz akademii</td>
+                    <td class="table__tableCell">2001-2002</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell">szef oddziału infrastruktury StiRW Inspektoratu Wsparcia WP</td>
+                    <td class="table__tableCell">2002-2010</td>
                 </tr>
             </table>
         </div>
@@ -172,16 +179,16 @@
                 <li>
                     Umiejetności interpersonalne:
                     <ul>
-                        <li class="list__Item">kierowanie dużymi i małymi zespołami ludzkimi</li>
-                        <li class="list__Item">praca w zespole</li>
-                        <li class="list__Item">praca pod presją</li>
+                        <li class="list__listItem">kierowanie dużymi i małymi zespołami ludzkimi</li>
+                        <li class="list__listItem">praca w zespole</li>
+                        <li class="list__listItem">praca pod presją</li>
                     </ul>
                 <li>Umiejetności praktyczne
                     <ul>
-                        <li class="list__Item">kierowanie p-ojazdami mechanicznymi, prawo jazdy kat.: A, B, C+E
+                        <li class="list__listItem">kierowanie p-ojazdami mechanicznymi, prawo jazdy kat.: A, B, C+E
                         </li>
-                        <li class="list__Item">Znajomość języków obcych: rosyjski, rosyjski, rosyjski
-                        <li class="list__Item">Znajomość środowiska Windows</li>
+                        <li class="list__listItem">Znajomość języków obcych: rosyjski, rosyjski, rosyjski
+                        <li class="list__listItem">Znajomość środowiska Windows</li>
                     </ul>
                 </li>
             </ul>
