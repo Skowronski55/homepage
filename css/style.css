@@ -23,6 +23,9 @@ html {
     max-width:100%;
     text-align:center; 
 }
+.header__container {
+    text-align:center;
+}
 .header__heading {
     font-family: 'Lato', sans-serif;
     color: darkblue;
@@ -105,7 +108,7 @@ html {
     list-style: none;
     padding-left: 20px;
 }
-.navigation__item {
+.navigation__listItem {
     margin: 5px;
 }
 .navigation__link {
@@ -128,7 +131,7 @@ html {
     color: black;
     margin: 20px;
 } 
-.article__highlightedText {
+.article_paragraphHighlighted {
     font-family: 'Lato', sans-serif;
     color: hwb(4 2% 26%);  
 }
@@ -137,7 +140,7 @@ html {
     text-decoration: none;
 }
 /* block table*/
-.article__tableContainer {
+.container1 {
     font-family: 'Lato', sans-serif;
     color: black;
     background-color: rgb(212, 206, 206);
@@ -151,7 +154,7 @@ html {
     color:#eee;
     background: black;
 }
-.table {
+.table__heading {
     font-family: "Lato", sans-serif;
     border-collapse: collapse;
     max-width: 100%;
@@ -161,21 +164,21 @@ html {
 .table__caption {
     margin-bottom: 20px;
 }
-.table__Cell {
+.table__tableCell {
     border: 1px solid #ccc; 
     padding: 20px; 
     vertical-align: middle;
     text-align: center; 
 }
-.table__Header {
+.table__tableHeader {
     background-color: grey;
     color: white;
     font-weight: normal;
 }
-.table__Row:nth-child(even) {
+.table__tableRow:nth-child(even) {
     background: #eee;
 }
-.table__Row:hover {
+.table__tableRow:hover {
     background: #ddd;
 }
 /*block list*/
@@ -191,7 +194,7 @@ html {
 .list__header {
     color:black;
 }
-.list__Item {
+.list__listItem {
     padding-left: 20px;
     list-style-type: circle;
 }
