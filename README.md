@@ -2,7 +2,8 @@
 
 [img]https://i.postimg.cc/MGdDb3Qs/WIN-20221209-13-22-50-Pro.jpg[/img]
 
-<img src="[url]https://i.postimg.cc/MGdDb3Qs/WIN-20221209-13-22-50-Pro.jpg" alt="alternatetext">
+<img src="https://i.postimg.cc/MGdDb3Qs/WIN-20221209-13-22-50-Pro.jpg" alt="Zdjecie">
+
 
 
 ##Demo
