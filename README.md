@@ -8,6 +8,7 @@
 https://skowronski55.github.io/homepage/
 
 <img src="https://i.postimg.cc/GtR5vSnz/Animationfirstpage.gif" alt="Zdjecie">
+[Animationfirstpage.gif](https://postimg.cc/5YPgVg0F)
 
 Hello everyone! After more than ten years of my retirement I wanted to change something and broke my dull daily routine. I 'enrolled on frontend programmer course. It is my first result - website about me. I think in future I will collect here all my works to give you opportunity to spay my progress. Thanks.
 
