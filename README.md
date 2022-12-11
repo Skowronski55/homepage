@@ -1,6 +1,6 @@
 # Skowroński Przemysław - my first page
 
-!(https://i.postimg.cc/MGdDb3Qs/WIN-20221209-13-22-50-Pro.jpg)
+[img]https://i.postimg.cc/MGdDb3Qs/WIN-20221209-13-22-50-Pro.jpg[/img]
 
 ##Demo
 https://skowronski55.github.io/homepage/
