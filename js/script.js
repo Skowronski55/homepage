@@ -1,4 +1,10 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+console.log("Cześć! Witam wszystkich!");
+}
+welcome();
+
+
 
 let button1 = document.querySelector(".js-header__buttonHeading");
 let header__heading = document.querySelector(".js-header__heading");
@@ -9,7 +15,7 @@ let body = document.querySelector(".js-body");
 let themeName = document.querySelector(".themeName");
 
 
-button1.addEventListener("click", () => {
+button1.addEventListener("click", (removeHeading) => {
     header__heading.remove();
 })
 
@@ -25,8 +31,7 @@ button3.addEventListener("click", () => {
 } else {
          themeName.innerText = "ciemny";
 }
+
+
 })
-
-
-
-
+}
