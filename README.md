@@ -7,7 +7,7 @@
 ##Demo
 https://skowronski55.github.io/homepage/
 
-[gif] <img src="https://i.postimg.cc/GtR5vSnz/Animationfirstpage.gif" alt="Zdjecie">
+[gif] (img src="https://i.postimg.cc/GtR5vSnz/Animationfirstpage.gif" alt="Zdjecie")
 
 Hello everyone! After more than ten years of my retirement I wanted to change something and broke my dull daily routine. I 'enrolled on frontend programmer course. It is my first result - website about me. I think in future I will collect here all my works to give you opportunity to spay my progress. Thanks.
 
