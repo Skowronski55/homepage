@@ -10,7 +10,7 @@ welcome();
         header__heading.remove();
     };
 
-    const removeImage() {
+    const removeImage = () => {
         const button2 = document.querySelector(".js-header__buttonImage");
         const img = document.querySelector(".js-header__image");
         img.remove();
