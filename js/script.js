@@ -2,7 +2,7 @@
     const welcome = () => {
 console.log("Cześć! Witam wszystkich!");
 }
-welcome();
+
 
     const removeHeading = () => {
         const button1 = document.querySelector(".js-header__buttonHeading");
@@ -16,7 +16,7 @@ welcome();
         img.remove();
     }
 
-    const toggleColor() {
+    const toggleColor = () => {
         const button3 = document.querySelector(".js-header__buttonColor");
         const body = document.querySelector(".js-body");
         const themeName = document.querySelector(".themeName");
