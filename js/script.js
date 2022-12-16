@@ -3,7 +3,7 @@
 console.log("Cześć! Witam wszystkich!");
 }
 
-
+ welcome();
     const removeHeading = () => {
         const button1 = document.querySelector(".js-header__buttonHeading");
         const header__heading = document.querySelector(".js-header__heading");
@@ -28,7 +28,7 @@ console.log("Cześć! Witam wszystkich!");
             themeName.innerText = "ciemny";
         };
 
-        welcome();
+       
 
         button1.addEventListener(removeHeading);
 
